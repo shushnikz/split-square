@@ -1,18 +1,11 @@
 import './App.css';
-import { useState } from "react";
+import SplitSquare from './SplitSquare';
 
 function App() {
 
-  const [split, setSplit] = useState()
-
-  const handleClick = () => {
-
-  }
-
   return (
     <div className="App">
-      <h1>Split a Square</h1>
-      <div className='square' onClick={handleClick}>{split}</div>
+      <SplitSquare />
     </div>
   );
 }
